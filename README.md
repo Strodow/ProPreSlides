@@ -1,6 +1,10 @@
 # ProPreSlides
 Propresenter lacks some features that I think would be very useful. The way this will interact with propresenter is either by exported bundle or the default propresenter file storage location /documents/propresenter.
 
+## Requirements
+- [Python 3.10](https://www.python.org/)
+- [Google Protobuf](https://github.com/protocolbuffers/protobuf/tree/master/python)
+
 ## Goals
 - Spell checker
 - Cleaning bible verse slides (spaces after periods, removeing pipe (|) character)
