@@ -4,6 +4,7 @@ Propresenter lacks some features that I think would be very useful. The way this
 ## Requirements
 - [Python 3.10](https://www.python.org/)
 - [Google Protobuf](https://github.com/protocolbuffers/protobuf/tree/master/python)
+- [.proto files](https://github.com/greyshirtguy/ProPresenter7-Proto)
 
 ## Goals
 - Spell checker
