@@ -1,0 +1,31 @@
+noteable referances
+https://developers.google.com/protocol-buffers
+https://github.com/greyshirtguy/ProPresenter7-Proto
+https://greyshirtguy.com/blog/propresenter-7-file-format-part-2/
+https://stackoverflow.com/questions/44580580/how-to-convert-rtf-string-to-plain-text-in-python-using-any-library
+https://pyspellchecker.readthedocs.io/en/latest/
+
+
+
+Spell Checker from Stack overflow
+
+from spellchecker import SpellChecker
+
+spell = SpellChecker()
+
+# find those words that may be misspelled
+misspelled = spell.unknown(['something', 'is', 'hapenning', 'here'])
+#misspelled is a list of misspelled words? test this
+
+
+
+
+Plan
+
+right click export as bundle
+unzip bundle
+read .pro files (encoded with google protobuf)
+find the rtf_data field for the text boxes and get other useful stuff (make a general analyzer?)
+strip rtf or convert
+run a spell checker and present possible misspellings(run some tests on files to see how reliable it is, if it is make a auto run feature)
+add feature to auto strip dumb things like | characters from bible verses and add spaces after all periods and commas
